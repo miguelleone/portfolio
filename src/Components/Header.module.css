@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    /* backdrop-filter: blur(10rem); */
+    background: transparent linear-gradient(75deg, #0a0a0a 0%, var(--black) 100%) 0% 0% no-repeat padding-box;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+.navLinks {
+    display: inline-flex;
+    gap: .5rem;
+}
+
+.logo {
+    min-height: 3rem;
+    min-width: 3rem;
+    background: url(../Assets/logo.png) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.logo::after {
+    content: '';
+    display: block;
+    background: #ffaf1a;
+    width: .6rem;
+    height: .2rem;
+    position: absolute;
+    bottom: 18px;
+    left: 38px;
+    z-index: 2;
+}

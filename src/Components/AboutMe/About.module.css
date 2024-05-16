@@ -1,0 +1,38 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.dados {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dados h1 {
+    color: #333;
+}
+
+.dados p {
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: inherit;
+    max-width: 32rem;
+}
+
+.buttons {
+    display: inline-flex;
+    gap: .5rem;
+}
+
+.img {
+    min-height: 200px;
+    min-width: 200px;
+    background: url(../../Assets/profile.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+}

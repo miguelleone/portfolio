@@ -1,0 +1,10 @@
+.dados h1 {
+    font-size: 1.6rem;
+}
+
+.buttons {
+    display: inline-flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
